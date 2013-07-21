@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Using modules</title>
+		<script src="https://rawgithub.com/ModuleLoader/es6-module-loader/master/dist/es6-module-loader.js"></script>
+		<script>
+			System.baseURL = 'js';
+		</script>
+	</head>
+	<body>
+		<p id="element">This is just some text.</p>
+		<script>
+			System.import('bolderiser', function (Bolderiser) {
+				var bolderiser = new Bolderiser();
+
+				bolderiser.embolden('element');
+			});
+		</script>
+	</body>
+</html>

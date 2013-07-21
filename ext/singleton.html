@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Using modules</title>
+		<script src="http://cdn.sencha.com/ext/gpl/4.2.0/ext-all.js"></script>
+		<script>
+			Ext.Loader.setPath('My', './js/');
+		</script>
+	</head>
+	<body>
+		<p id="element">This is just some text.</p>
+		<script>
+			(function () {
+				var bolderiser = Ext.create('My.Bolderiser');
+
+				bolderiser.embolden('element');
+			}());
+		</script>
+	</body>
+</html>

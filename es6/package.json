@@ -1,0 +1,10 @@
+{
+  "name": "es6-module-examples",
+  "description": "ES6 Module Examples",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-es6-module-transpiler": "~0.4.1"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "yui-module-examples",
+  "description": "YUI Module Examples",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-yui-config": "~0.2.0",
+    "grunt": "~0.4.1"
+  }
+}

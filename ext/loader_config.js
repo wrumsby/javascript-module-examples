@@ -1,0 +1,1 @@
+Ext.Loader.setPath('My', './js/');

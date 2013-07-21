@@ -1,0 +1,10 @@
+node_modules
+
+amd/build
+amd/components
+
+browserify/dist
+
+es6/amd
+
+yui/js/build

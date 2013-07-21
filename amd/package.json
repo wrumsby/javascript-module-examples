@@ -1,0 +1,11 @@
+{
+  "name": "amd-module-examples",
+  "description": "AMD Module Examples",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "madge": "~0.1.4",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt": "~0.4.1"
+  }
+}

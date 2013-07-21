@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Using modules</title>
+		<script src="require-config.js"></script>
+		<script src="components/requirejs/require.js"></script>
+		<script>
+			require.config({
+				baseUrl: './build'
+			})
+		</script>
+	</head>
+	<body>
+		<p id="element">This is just some text.</p>
+		<script>
+			require(['bolderiser'], function (Bolderiser) {
+				'use strict';
+
+				var bolderiser = new Bolderiser();
+
+				bolderiser.embolden('#element');
+			});
+		</script>
+	</body>
+</html>
